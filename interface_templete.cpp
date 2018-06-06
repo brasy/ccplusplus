@@ -1,4 +1,3 @@
-#include "boostlib.h"
 //use interface
 struct AInterface
 {
