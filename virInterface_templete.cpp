@@ -1,4 +1,5 @@
 //use interface
+//more flexsible
 struct AInterface
 {
     virtual void f() = 0;
@@ -18,6 +19,7 @@ struct UseAInterface
 };
 
 //use templates
+//more performance
 struct B
 {
     void f(){std::cout<<"B::f()"<<std::endl;}
