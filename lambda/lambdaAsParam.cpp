@@ -77,7 +77,7 @@ void LambdaClass::callLambda(std::function<string()> getString)
     vector<int> vec = {1,5,6,9,4};
     testClassCallback(vec,funcptr);
 }
-int main_lamCl()
+void main_lamCl()
 {
     LambdaClass lamObj;
     lamObj.callLambda(2);
