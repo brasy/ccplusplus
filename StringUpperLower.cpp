@@ -1,3 +1,7 @@
+#include <iostream>
+#include <iterator>
+using namespace std;
+
 #include <ctype.h>
 #include <algorithm>
 
